@@ -69,3 +69,19 @@ Combination of `cloudfront:setup` and `cloudfront:build:deploy` commands with or
 ### `serverless:remove`
 
 Remove an entire stack configured in `serverless.yml` via CloudFormation.
+
+=========================================================================
+
+## task 2
+
+### URL displayed by sls client deploy
+
+- http://hiroki111-shop-react-redux-cloudfront.s3-website-eu-west-1.amazonaws.com/ (REST API requests result in "ERR_NETWORK", "Network Error" and "AxiosError")
+
+### S3 URL
+
+- http://hiroki111-shop-react-redux-cloudfront.s3-website-eu-west-1.amazonaws.com (Again, REST API requests result in "ERR_NETWORK", "Network Error" and "AxiosError")
+
+### CloudFront URL
+
+- d13d353k8sdke7.cloudfront.net
