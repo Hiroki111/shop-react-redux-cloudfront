@@ -25,6 +25,9 @@ custom:
   ## Serverless-single-page-app-plugin configuration:
   s3LocalPath: ${self:custom.client.distributionFolder}/
   s3BucketName: ${self:custom.client.bucketName}
+  serverless-s3-cleaner:
+    buckets:
+      - ${self:custom.client.bucketName}
 
 resources:
   Resources:
